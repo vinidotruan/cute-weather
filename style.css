@@ -1,0 +1,22 @@
+* {
+  font-family: "JetBrains Mono";
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  width: 400px;
+  height: 400px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  font-size: 40pt;
+}
