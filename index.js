@@ -27,9 +27,9 @@ function loadWeather() {
         src = "assets/tempo-limpo.gif";
       } else if ([1, 2, 3].indexOf(weather_code) !== -1) {
         src = "assets/nublado.gif";
-      } else if ([51, 53, 55].indexOf(weather_code) !== -1) {
+      } else if ([51, 53, 55, 80].indexOf(weather_code) !== -1) {
         src = "assets/chuva-leve.gif";
-      } else if ([61, 63, 65, 95].indexOf(weather_code) !== -1) {
+      } else if ([61, 63, 65, 95, 81, 82].indexOf(weather_code) !== -1) {
         src = "assets/chuva-forte.gif";
       } else {
         src = "assets/tempo-limpo.gif";
