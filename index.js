@@ -42,4 +42,6 @@ function loadWeather() {
     });
 }
 
+setInterval(loadWeather(), 300000);
+
 loadWeather();
