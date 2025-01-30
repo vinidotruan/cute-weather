@@ -26,7 +26,7 @@ function loadWeather() {
       if (weather_code === 0 ) {
         src = "assets/tempo-limpo.gif";
       } else if ([1, 2, 3].indexOf(weather_code) !== -1) {
-        src = "assets/nublado.gif";
+        src = "assets/tempo-nublado.gif";
       } else if ([51, 53, 55, 80].indexOf(weather_code) !== -1) {
         src = "assets/chuva-leve.gif";
       } else if ([61, 63, 65, 95, 81, 82].indexOf(weather_code) !== -1) {
