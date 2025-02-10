@@ -42,6 +42,6 @@ function loadWeather() {
     });
 }
 
-setInterval(loadWeather(), 300000);
+setInterval(loadWeather(), 60000);
 
 loadWeather();
