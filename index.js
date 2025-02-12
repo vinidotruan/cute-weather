@@ -19,7 +19,6 @@ function loadWeather() {
       const { current } = r;
       const currentTemp = current.temperature_2m;
       const weather_code = current.weather_code;
-      const counterElement = document.querySelector("#counter");
 
       const image = document.querySelector("#image");
       let src = "";
@@ -39,7 +38,6 @@ function loadWeather() {
 
       const temp = document.querySelector("#temp");
       temp.innerText = `${currentTemp} °C`;
-      counterElement.innerText = counter;
     });
 }
 
